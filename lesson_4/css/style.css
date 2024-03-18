@@ -1,0 +1,181 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); */
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand:500,600,700&display=swap");
+
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: black;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.header-logo {
+    display: block;
+    padding: 10px;
+}
+
+.item1 {
+    
+    padding: 10px;
+    
+}
+
+.item2 {
+    padding: 10px;
+}
+
+.item3 {
+    padding: 10px;
+}
+
+.item4 {
+    padding: 10px;
+}
+
+.item5 {
+    padding: 10px;
+}
+
+.title {
+    font-family: "Quicksand", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: line-through;
+    text-decoration-color: red;
+    text-decoration-style: dashed;
+}
+
+.sub-title {
+    padding: 20px;
+    font-style: italic;
+    font-size: 44px;
+    font-weight: 500;
+    color: blue;
+    text-align: center;
+
+}
+
+.block {
+    text-align: center;
+}
+
+.about {
+    line-height: 156.25%; /* 25/16 */
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 5px 5px 10px #0d1cef;
+    white-space: wrap;
+    
+}
+
+.architect {
+    padding: 20px;
+    font-style: italic;
+    font-size: 44px;
+    font-weight: 500;
+    color: rgb(38, 186, 18);
+    text-align: center;
+    
+}
+
+.cuisine {
+    padding: 20px;
+    font-style: italic;
+    font-size: 44px;
+    font-weight: 500;
+    color: rgb(225, 110, 15);
+    text-align: center;
+    
+}
+
+.weekend {
+    padding: 20px;
+    font-size: 44px;
+    font-weight: 500;
+    color: blue;
+    text-align: center;
+    text-shadow: 5px 5px 15px hsl(122, 81%, 35%);
+}
+
+.architect-text {
+    line-height: 156.25%; /* 25/16 */
+    text-align: center;
+}
+
+.cuisine-text {
+    line-height: 156.25%; /* 25/16 */
+    text-align: center;
+}
+
+.weekend-text {
+    line-height: 156.25%; /* 25/16 */
+    text-align: center;
+}
+
+.icons {
+    display: block;
+    padding: 20px;
+    font-style: italic;
+    font-size: 44px;
+    font-weight: 500;
+    color: blue;
+    text-align: center;
+    text-transform: none;
+}
+
+.item {
+    padding: 10px;
+}
+
+.block {
+    
+}
+
+.title-krovato {
+    color: #2b2929;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 15px;
+    line-height: 120%; /* 48/40 */
+}
+
+.image-krovato {
+    display: inline-block;
+    padding: 15px;
+    width: auto;
+}
+
+.txt-krovato {
+    color: #2b2929;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Proxima Nova",sans-serif;
+    font-weight: 400;
+    line-height: 187.5%; /* 30/16 */
+    padding: 15px;
+}
+
+.button {
+    font-size: 50px;
+}
+
+.button-home {
+    display: inline-block;
+    margin-bottom: 60px;
+}
