@@ -1,0 +1,115 @@
+/* Імпорт шрифтів */
+@import url("https://fonts.googleapis.com/css?family=Roboto:500&display=swap");
+@import url("fonts.css");
+
+
+
+/* Скидання стилів */
+
+@import url("reset.css");
+
+body {
+    font-family: "Proxima Nova Lt", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.page {
+   
+}
+
+.section-1 {
+    margin-bottom: 100px;
+}
+
+.section-2 {
+    font-family: "Proxima Nova Lt", sans-serif;
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom:60px;
+    line-height: normal;
+}
+
+.icons {  
+    text-align: center;
+    margin-left: 10px;
+    width: 100%;
+    font-size: 0px;
+    align-items: center;
+    
+ }
+
+.image-item {
+    display: inline-block;
+    margin-right: 24px;
+}
+
+.title-2 {
+    font-family: "Proxima Nova Lt", sans-serif;
+    color: #2b2929;
+    font-size: 40px;
+    font-weight: 600px;
+    text-align: center;
+    line-height: 1.2; /* 48/40 */
+    margin-bottom: 40px;
+}
+
+.krovato-image {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.text {
+    margin-bottom: 40px;
+}
+
+.text-1 {
+    color: #2b2929;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.875;
+    margin-bottom: 10px;
+ }
+.text-2 {
+    color: #2b2929;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.875;
+    margin-bottom: 44px;
+}
+
+ .subtitle-krovato {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 140%; /* 28/20 */
+    margin-bottom: 30px;
+
+ }
+
+ .block-krovato {
+    max-width: 1070px;
+ }
+
+ .list {
+
+  }
+.item {
+    color: #2b2929;
+    font-size: 16px;
+    font-family: "Proxima Nova Lt", sans-serif;
+    font-weight: 400;
+    line-height: 187.5%;
+    padding-top: 20px;
+    padding-left: 40px;
+    background: url(../img/mark.svg) no-repeat 0 20px;
+ }
