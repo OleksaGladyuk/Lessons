@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:500,600,700&display=swap");
+
+@import url("fonts.css");
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Exo:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Orbitron:regular,500,600,700&display=swap");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* KROVATO */
+
+body {
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main-title:hover {
+    color: rgb(106, 106, 240);
+    padding-top: 10px;
+}
+
+.page {
+padding-top: 20px;
+}
+
+.section-krovato {
+    margin: 0 auto;
+    max-width: 1070px;
+    margin-bottom: 50px;
+ }
+
+.title-krovato {
+    text-align: center;
+    color: #2b2929;
+    font-size: 40px;
+    line-height: 120%; /* 48/40 */
+    font-weight: 600;
+    margin-bottom: 40px;
+ }
+
+.image-krovato {
+    margin-bottom: 40px;
+ }
+.text-krovato {
+    margin-bottom: 44px;
+ }
+
+.text-1, .text-2 {
+    color: #2b2929;
+    font-size: 16px;
+    line-height: 187.5%; /* 30/16 */
+    margin-bottom: 10px;
+ }
+
+.title-krovato-2 {
+    color: #2b2929;
+    font-size: 20px;
+    line-height: 140%; /* 28/20 */
+    font-weight: 600;
+    margin-bottom: 26px;
+ }
+
+.list {
+margin-bottom: 40px;
+ }
+
+.list-item {
+    padding-left: 50px;
+    /* padding-top: 20px; */
+    color: #2b2929;
+    font-size: 16px;
+    line-height: 187.5%; /* 30/16 */
+    margin-bottom: 20px;
+ }
+
+ .list-item::before {
+   background: url("../img/mark.svg")  0 0 no-repeat;
+   content: "";
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin-left: -47px;
+    margin-right: 14px;
+    vertical-align: middle;
+ }
+
+.list .list-item:last-child {
+    margin-bottom: 0;
+}
+
+.conclusion-text-krovato {
+    color: #2b2929;
+    line-height: 187.5%; /* 30/16 */
+ }
+
+ .section-portfolio {
+   font-family: "Exo";
+   background: url("../img/portfolio-background.png");
+   width: 100%;
+   color: #fff;
+   padding: 120px 0 20px 0;
+   margin-bottom: 20px;
+  }
+
+  .content-block-portfolio {
+   width: 992px;
+   margin: 0 auto;
+   font-size: 0;
+  }
+
+.container-portfolio {
+   margin: 0 auto;
+   max-width: 1512px;
+ }
+.title-portfolio {
+   font-size: 60px;
+   font-weight: 700;
+   line-height: 116.666667%; /* 70/60 */
+   text-transform: uppercase;
+   text-align: center;
+   margin-bottom: 40px;
+ }
+
+ .title-portfolio::after {
+   display: block;
+   background: linear-gradient(90deg, #F00 0%, #42FF00 48.9%, #2400FF 100%);
+   content: "";
+   width: 401px;
+   height: 1px;
+   margin: 19px auto 0;
+ }
+
+.text-portfolio {
+   text-align: center;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 222.222222%; /* 40/18 */
+   letter-spacing: -0.36px;
+   text-transform: capitalize;
+   margin-bottom: 60px;
+ }
+.portfolio-list {
+   margin: 0 auto;
+   width: 1170px;
+   font-size: 0;
+   margin-bottom: 120px;
+ }
+.portfolio-list-items {
+   margin: 0 auto;
+   font-size: 0;
+ }
+.list-item-about {
+   display: inline-block;
+   font-family: "Orbitron";
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 1.25; /* 25/20 */
+   text-transform: capitalize;
+   margin-right: 60px;
+ }
+
+ .list-item-about::after {
+   display: inline-block;
+   content: "";
+   background: url("../img/ellipse-about.svg");
+   border-radius: 50%;
+   width: 10px;
+   height: 10px;
+   margin-left: 60px;
+ }
+
+ .contacts-portfolio {
+   margin: 0 auto;
+   font-family: Exo;
+   max-width: 1050px;
+}
+.contacts-items {
+  display: inline-block;
+ }
+.contacts-item, .contacts-item-2, .contacts-item-3 {
+   color: #FFF;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 1.0;
+   letter-spacing: -0.4px;
+   text-transform: capitalize;
+   margin-right: 80px;
+ }
+ .contacts-item:hover, .contacts-item-2:hover, .contacts-item-3:hover {
+   text-decoration: underline;
+ }
+
+
+.contacts-item::before {
+   display: inline-block;
+   content: "";
+   background: url("../img/call.svg");
+   width: 20px;
+   height: 20px;
+   margin-right: 20px;
+}
+
+.contacts-item-2::before {
+   display: inline-block;
+   content: "";
+   background: url("../img/location.svg");
+   width: 20px;
+   height: 20px;
+   margin-right: 20px;
+}
+
+.contacts-item-3::before {
+   display: inline-block;
+   content: "";
+   background: url("../img/email.svg");
+   width: 20px;
+   height: 16px;
+   margin-right: 20px;
+}
+
+.footer {
+   width: 100%;
+ }
+ .top-of-page {
+   padding: 10px;
+   display: block;
+   margin: 0 auto;
+   width: 170px;
+   font-size: 30px;
+   font-weight: 600;
+   background-color: #F00;
+   border-radius: 20px;
+ }
